@@ -32,7 +32,10 @@ for(let tipo of tipos){
 }
 console.log(deck);
 
-// deck = _.shuffle(deck);
+
+deck = _.shuffle(deck);
+
+console.log(deck);
 
 return deck;
 }
