@@ -1,28 +1,32 @@
-// // // import { init } from "./js/chistes-page";
+// // // // import { init } from "./js/chistes-page";
 
-import * as CRUD from "./js/crud-provider";
+// import * as CRUD from "./js/crud-provider";
 
-// // // import { init } from "./js/usuarios-page";
+// // // // import { init } from "./js/usuarios-page";
 
-// // // // import { obtenerUsuarios } from "./js/http-provider";
+// // // // // import { obtenerUsuarios } from "./js/http-provider";
 
 
-// // // // // init();
+// // // // // // init();
 
-// // // // obtenerUsuarios().then(console.log);
+// // // // // obtenerUsuarios().then(console.log);
 
-// // // init().then(console.log);
+// // // // init().then(console.log);
 
-// // CRUD.getUsuario( 1 ).then(console.log);
+// // // CRUD.getUsuario( 1 ).then(console.log);
 
-// // CRUD.crearUsuario({
-// //     name: 'Fernando',
-// //     job: 'Programador'
+// // // CRUD.crearUsuario({
+// // //     name: 'Fernando',
+// // //     job: 'Programador'
+// // // }).then( console.log );
+
+// // CRUD.actualizarUsuario( 1, {
+// //     name: 'Melissa',
+// //     job: 'Developer'
 // // }).then( console.log );
 
-// CRUD.actualizarUsuario( 1, {
-//     name: 'Melissa',
-//     job: 'Developer'
-// }).then( console.log );
+// CRUD.borrarUsuario( 1 ).then( console.log );
 
-CRUD.borrarUsuario( 1 ).then( console.log );
+import { init} from './js/archivos-page';
+
+init();
